@@ -16,6 +16,7 @@ int File::getSize() {
 void File::printList() {
     printList("");
 }
+
 void File::printList(string prefix) {
     cout << prefix << "/" << this->getName() << "(" << this->getSize() << ")" << endl;
 }

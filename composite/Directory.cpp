@@ -28,6 +28,15 @@ void Directory::printList() {
 }
 
 void Directory::printList(string prefix){
+    cout << prefix << "/" << this->getName() << "(" << this->getSize() << ")" << endl;
+    vector<Entry*>::iterator iter;
+    iter = directory.begin();
+    while (iter != directory.end()){
+        (*iter)->printList(prefix+"/"+this->getName());
+        iter++;
+    }
+}
+
 //    ostringstream msg;
 //    int num = 0;
 //
@@ -38,13 +47,3 @@ void Directory::printList(string prefix){
 //        directory[num]->printList(prefix);
 //        num++;
 //    }
-
-
-    cout << prefix << "/" << this->getName() << "(" << this->getSize() << ")" << endl;
-    vector<Entry*>::iterator iter;
-    iter = directory.begin();
-    while (iter != directory.end()){
-        (*iter)->printList(prefix+"/"+this->getName());
-        iter++;
-    }
-}
