@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/GitHub/DesignPattern/UndoRedo/Command.h
+
+G:/GitHub/DesignPattern/UndoRedo/Commander.cpp
+Commander.h
+G:/GitHub/DesignPattern/UndoRedo/Commander.h
+
+G:/GitHub/DesignPattern/UndoRedo/Commander.h
+iostream
+-
+stack
+-
+string
+-
+Command.h
+G:/GitHub/DesignPattern/UndoRedo/Command.h
+
+G:/GitHub/DesignPattern/UndoRedo/InputCommand.cpp
+InputCommand.h
+G:/GitHub/DesignPattern/UndoRedo/InputCommand.h
+
+G:/GitHub/DesignPattern/UndoRedo/InputCommand.h
+iostream
+-
+Command.h
+G:/GitHub/DesignPattern/UndoRedo/Command.h
+string
+-
+
+G:/GitHub/DesignPattern/UndoRedo/main.cpp
+iostream
+-
+Command.h
+G:/GitHub/DesignPattern/UndoRedo/Command.h
+Commander.h
+G:/GitHub/DesignPattern/UndoRedo/Commander.h
+InputCommand.h
+G:/GitHub/DesignPattern/UndoRedo/InputCommand.h
+

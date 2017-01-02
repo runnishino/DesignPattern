@@ -1,0 +1,3 @@
+G:/GitHub/DesignPattern/ComlicatedUndoRedo/cmake-build-debug/CMakeFiles/ComlicatedUndoRedo.dir
+G:/GitHub/DesignPattern/ComlicatedUndoRedo/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/GitHub/DesignPattern/ComlicatedUndoRedo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\JetBrains\CLion 2016.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\GitHub\DesignPattern\UndoRedo
+-- Configuring done
+CMake Error at CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    BaseCommand.h
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: UndoRedo
+CMake Error: Cannot determine link language for target "UndoRedo".
+-- Generating done
+-- Build files have been written to: G:/GitHub/DesignPattern/UndoRedo/cmake-build-debug

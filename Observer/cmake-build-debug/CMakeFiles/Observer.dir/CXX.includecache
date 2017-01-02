@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+G:/GitHub/DesignPattern/Observer/Observer.cpp
+Observer.h
+G:/GitHub/DesignPattern/Observer/Observer.h
+iostream
+-
+algorithm
+-
+
+G:/GitHub/DesignPattern/Observer/Observer.h
+list
+-
+string
+-
+
+G:/GitHub/DesignPattern/Observer/main.cpp
+iostream
+-
+Observer.h
+G:/GitHub/DesignPattern/Observer/Observer.h
+
